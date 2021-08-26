@@ -4,10 +4,18 @@ Void ProcedoALlorar()
 	{
 		//Agregue efecto de lagrimas
 		Lagrimas();
+		SoundSystem.Clip(MusicaMuySad)
+		SoundSystem.Play()
 	}
 }
 
 Void Lagrimas()
 {
 	Add.ParticleSystem(Lagrimas muy tristes)
+}
+
+Void SistemaMusicaSad()
+{
+	SoundSystem=GameObject.GetComponent<Sound>();
+	SoundSystem.Volume=1;
 }
