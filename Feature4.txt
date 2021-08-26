@@ -4,3 +4,8 @@ Void FirstCode()
 {
 //Contenido del metodo.
 }
+
+void SecondCode()
+{
+//Contenido del segundo metodo.
+}
