@@ -1,0 +1,7 @@
+Void ProcedoALlorar()
+{
+	If(Sad==True)
+	{
+		//Agregue efecto de lagrimas
+	}
+}
