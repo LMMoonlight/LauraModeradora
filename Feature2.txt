@@ -7,8 +7,14 @@ Void MetodoParaSerFeli()
 Void MusicaParaSerFeli(SoundSystem Sound)
 {
 	public SoundClips[];
-	Sound=Cara.GetComponent<SoundSystem>();
 	Sound.Volume=0.7;
 	Sound.Clip(SoundClips[Random.Range(0,SoundClips.Lenght)]);
 	Sound.Play();
+}
+
+Void Start()
+{
+	SoundSS=Cara.GetComponent<SoundSystem>();
+	MusicaParaSerFeli(SoundSS);
+	MetodoParaSerFeli();
 }
