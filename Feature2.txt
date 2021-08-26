@@ -7,7 +7,7 @@ Void MetodoParaSerFeli()
 Void MusicaParaSerFeli(SoundSystem Sound)
 {
 	public SoundClips[];
-	Sound.Volume=0.7;
+	Sound.Volume=0.3; //Correción ;)
 	Sound.Clip(SoundClips[Random.Range(0,SoundClips.Lenght)]);
 	Sound.Play();
 }
