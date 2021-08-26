@@ -3,5 +3,11 @@ Void ProcedoALlorar()
 	If(Sad==True)
 	{
 		//Agregue efecto de lagrimas
+		Lagrimas();
 	}
+}
+
+Void Lagrimas()
+{
+	Add.ParticleSystem(Lagrimas muy tristes)
 }
