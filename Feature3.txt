@@ -3,3 +3,8 @@
 Void PlayFeature3() {
 //Cosas que deberia ejecutar este metodo
 }
+
+Void PlayAnotherMethod()
+{
+ //Un segundo metodo para el feature
+}
