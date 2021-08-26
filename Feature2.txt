@@ -1,0 +1,20 @@
+Void MetodoParaSerFeli()
+{
+	Cara=GameObject.FindGameObjectWithName("Carita")
+	Cara.GetComponent<Render>().Set(ModoFeli);
+}
+
+Void MusicaParaSerFeli(SoundSystem Sound)
+{
+	public SoundClips[];
+	Sound.Volume=0.3; //Correción ;)
+	Sound.Clip(SoundClips[Random.Range(0,SoundClips.Lenght)]);
+	Sound.Play();
+}
+
+Void Start()
+{
+	SoundSS=Cara.GetComponent<SoundSystem>();
+	MusicaParaSerFeli(SoundSS);
+	MetodoParaSerFeli();
+}
