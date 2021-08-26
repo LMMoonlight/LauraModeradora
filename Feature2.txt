@@ -1,0 +1,5 @@
+Void MetodoParaSerFeli()
+{
+	Cara=GameObject.FindGameObjectWithName("Carita")
+	Cara.GetComponent<Render>().Set(ModoFeli);
+}
